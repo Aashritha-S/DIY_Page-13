@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafty DIY Corner</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(90deg, #FFD700, #FF6347); /* Colorful gradient background */
+            color: #333;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        /* Header styles */
+        header {
+            background-color: #3498db; /* Colorful header */
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        /* Crafts container styles */
+        .crafts-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .craft-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        /* Blog section styles */
+        .blogs {
+            padding: 20px;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Feedback form styles */
+        .feedback-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .feedback-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .feedback-form input,
+        .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .feedback-form button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crafty DIY Corner</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <!-- Add more navigation links -->
+        </nav>
+    </header>
+    <div class="crafts-container">
+        <!-- Example craft cards -->
+        <!-- Add your craft cards here -->
+    </div>
+    <section class="blogs">
+        <h2>Latest DIY Blogs</h2>
+        <div class="blog-post">
+            <img src="blog1.jpg" alt="Blog 1">
+            <h3>Embroidery Enthusiast</h3>
+            <p>Create beautiful embroidered pieces with our step-by-step tutorials. From basic stitches to intricate designs!</p>
+        </div>
+        <div class="blog-post">
+            <img src="blog2.jpg" alt="Blog 2">
+            <h3>Paper Flower Paradise</h3>
+            <p>Learn how to make stunning paper flowers for decorations, gifts, and more. Templates included!</p>
+        </div>
+        <!-- Add more blog posts -->
+    </section>
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="satisfaction">Satisfaction:</label>
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied" checked>
+            <label for="satisfied">Satisfied</label>
+            
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied" checked>
+            <label for="satisfied">Satisfied</label>
+            <input type="radio" id="not-satisfied" name="satisfaction" value="not-satisfied">
+            <label for="not-satisfied">Not Satisfied</label>
+
+            <label for="suggestions">Suggestions:</label>
+            <textarea id="suggestions" name="suggestions" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>© 2024 Crafty DIY Corner</p>
+        <!-- Add other footer content here -->
+    </footer>
+</body>
+</html>
